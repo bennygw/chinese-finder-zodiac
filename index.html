@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Zodiac Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧧 Chinese Zodiac Finder</h1>
+        <p>Enter a year to find your zodiac animal</p>
+        
+        <div class="input-group">
+            <input type="number" id="yearInput" placeholder="Ex: 1998">
+            <button onclick="checkZodiac()">Find Zodiac</button>
+        </div>
+
+        <div id="result" class="result-container hidden">
+            <h2 id="zodiacName"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
